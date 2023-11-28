@@ -2,8 +2,9 @@
 import os
 import csv
 import sys
-from rdkit import Chem
-from rdkit.Chem.Descriptors import MolWt
+import datamol as dm
+import molfeat
+from molfeat.trans.fp import FPVecTransformer
 
 # parse arguments
 input_file = sys.argv[1]
@@ -13,9 +14,12 @@ output_file = sys.argv[2]
 root = os.path.dirname(os.path.abspath(__file__))
 
 # my model
-def my_model(smiles_list):
-    return [MolWt(Chem.MolFromSmiles(smi)) for smi in smiles_list]
-
+def my_model(smiles):
+    mols = [dm.to_mol(s) for s in smiles]
+    molecules_with_3D = [dm.conformers.generate(m, n_confs=1, minimize_energy=True) for m in mols]
+    transformer = FPVecTransformer(kind='usrcat', dtype=float)
+    features = transformer(molecules_with_3D) 
+    return features
 
 # read SMILES from .csv file, assuming one column with header
 with open(input_file, "r") as f:
@@ -26,6 +30,10 @@ with open(input_file, "r") as f:
 # run model
 outputs = my_model(smiles_list)
 
+print(outputs)
+print(len(outputs[0]))
+print(outputs.shape)
+
 #check input and output have the same lenght
 input_len = len(smiles_list)
 output_len = len(outputs)
@@ -34,6 +42,6 @@ assert input_len == output_len
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["value"])  # header
+    writer.writerow(["usrcat-{}".format(i) for i in range(60)])  # header
     for o in outputs:
-        writer.writerow([o])
+        writer.writerow(o)
