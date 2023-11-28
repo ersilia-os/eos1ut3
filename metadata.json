@@ -26,5 +26,11 @@
     ],
     "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-27",
     "Source Code": "https://molfeat.datamol.io/featurizers/usrcat",
-    "License": "Apache-2.0"
+    "License": "Apache-2.0",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1ut3",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }

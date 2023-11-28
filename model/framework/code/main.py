@@ -30,10 +30,6 @@ with open(input_file, "r") as f:
 # run model
 outputs = my_model(smiles_list)
 
-print(outputs)
-print(len(outputs[0]))
-print(outputs.shape)
-
 #check input and output have the same lenght
 input_len = len(smiles_list)
 output_len = len(outputs)

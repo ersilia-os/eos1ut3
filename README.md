@@ -25,6 +25,8 @@ USRCAT is a real-time ultrafast molecular shape recognition with pharmacophoric 
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos1ut3)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos1ut3) (AMD64, ARM64)
 
 ## Citation
 
