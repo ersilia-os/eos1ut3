@@ -4,6 +4,7 @@
     "Status": "Ready",
     "Title": "USR descriptors with pharmacophoric constraints",
     "Description": "USRCAT is a real-time ultrafast molecular shape recognition with pharmacophoric constraints. It integrates atom type to the traditional Ultrafast Shape Recognition (USR) descriptor to improve the performance of shape-based virtual screening, being able to discriminate between compounds with similar shape but distinct pharmacophoric features",
+    "Mode": "Pretrained",
     "Task": [
         "Representation"
     ],
