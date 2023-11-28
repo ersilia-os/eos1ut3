@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos1ut3",
+    "Slug": "molfeat-usrcat",
+    "Status": "In progress",
+    "Title": "USR descriptors with pharmacophoric constraints",
+    "Description": "USRCAT is a real-time ultrafast shape recognition with pharmacophoric constraints. It integrates atom type to the traditional USR descriptor to improve the performance of shape-based virtual screening",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,8 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": "Descriptor",
+    "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-27",
+    "Source Code": "https://molfeat.datamol.io/featurizers/usrcat",
+    "License": "Apache-2.0"
 }
