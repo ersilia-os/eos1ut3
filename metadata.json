@@ -3,32 +3,44 @@
     "Slug": "molfeat-usrcat",
     "Status": "Ready",
     "Title": "USR descriptors with pharmacophoric constraints",
-    "Description": "USRCAT is a real-time ultrafast molecular shape recognition with pharmacophoric constraints. It integrates atom type to the traditional Ultrafast Shape Recognition (USR) descriptor to improve the performance of shape-based virtual screening, being able to discriminate between compounds with similar shape but distinct pharmacophoric features",
-    "Mode": "Pretrained",
-    "Task": [
-        "Representation"
-    ],
+    "Description": "USRCAT is a real-time ultrafast molecular shape recognition with pharmacophoric constraints. It integrates atom type to the traditional Ultrafast Shape Recognition (USR) descriptor to improve the performance of shape-based virtual screening, being able to discriminate between compounds with similar shape but distinct pharmacophoric features.\n",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
+    "Input Dimension": 1,
+    "Task": "Representation",
+    "Subtask": "Featurization",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Output": [
-        "Descriptor"
+        "Value"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "List",
+    "Output Dimension": 60,
+    "Output Consistency": "Fixed",
     "Interpretation": "60 features based on USRCAT",
     "Tag": [
         "Descriptor",
         "Embedding"
     ],
     "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-27",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2012,
     "Source Code": "https://molfeat.datamol.io/featurizers/usrcat",
     "License": "Apache-2.0",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip",
+    "Contributor": "GemmaTuron",
+    "Incorporation Date": "2023-11-28",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1ut3",
     "Docker Architecture": [
         "AMD64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip",
+    "Deployment": [
+        "Local"
     ]
 }
