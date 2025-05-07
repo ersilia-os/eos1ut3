@@ -28,16 +28,16 @@ This model was incorporated on 2023-11-28.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| dim_00 | integer |  | URSCAT dimension index 0 |
-| dim_01 | integer |  | URSCAT dimension index 1 |
-| dim_02 | integer |  | URSCAT dimension index 2 |
-| dim_03 | integer |  | URSCAT dimension index 3 |
-| dim_04 | integer |  | URSCAT dimension index 4 |
-| dim_05 | integer |  | URSCAT dimension index 5 |
-| dim_06 | integer |  | URSCAT dimension index 6 |
-| dim_07 | integer |  | URSCAT dimension index 7 |
-| dim_08 | integer |  | URSCAT dimension index 8 |
-| dim_09 | integer |  | URSCAT dimension index 9 |
+| dim_00 | float |  | URSCAT dimension index 0 |
+| dim_01 | float |  | URSCAT dimension index 1 |
+| dim_02 | float |  | URSCAT dimension index 2 |
+| dim_03 | float |  | URSCAT dimension index 3 |
+| dim_04 | float |  | URSCAT dimension index 4 |
+| dim_05 | float |  | URSCAT dimension index 5 |
+| dim_06 | float |  | URSCAT dimension index 6 |
+| dim_07 | float |  | URSCAT dimension index 7 |
+| dim_08 | float |  | URSCAT dimension index 8 |
+| dim_09 | float |  | URSCAT dimension index 9 |
 
 _10 of 60 columns are shown_
 ### Source and Deployment
