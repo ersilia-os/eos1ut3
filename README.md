@@ -44,13 +44,18 @@ _10 of 60 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos1ut3](https://hub.docker.com/r/ersiliaos/eos1ut3)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `6200`
+- **Image Size (Mb):** `6059.95`
 
+**Computational Performance (seconds):**
+- 10 inputs: `38.94`
+- 100 inputs: `73.38`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/usrcat](https://molfeat.datamol.io/featurizers/usrcat)
