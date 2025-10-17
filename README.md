@@ -4,6 +4,7 @@ USRCAT is a real-time ultrafast molecular shape recognition with pharmacophoric 
 
 This model was incorporated on 2023-11-28.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos1ut3`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-11-28.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Descriptor`, `Embedding`
 
 ### Input
