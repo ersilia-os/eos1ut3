@@ -2,8 +2,7 @@
 
 USRCAT is a real-time ultrafast molecular shape recognition with pharmacophoric constraints. It integrates atom type to the traditional Ultrafast Shape Recognition (USR) descriptor to improve the performance of shape-based virtual screening, being able to discriminate between compounds with similar shape but distinct pharmacophoric features.
 
-This model was incorporated on 2023-11-28.
-
+This model was incorporated on 2023-11-28.Last packaged on 2025-11-14.
 
 ## Information
 ### Identifiers
@@ -51,11 +50,11 @@ _10 of 60 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `7733`
-- **Image Size (Mb):** `6059.95`
+- **Image Size (Mb):** `7678.54`
 
 **Computational Performance (seconds):**
-- 10 inputs: `38.94`
-- 100 inputs: `73.38`
+- 10 inputs: `30.63`
+- 100 inputs: `35.34`
 - 10000 inputs: `-1`
 
 ### References
