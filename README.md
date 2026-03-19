@@ -2,7 +2,7 @@
 
 USRCAT is a real-time ultrafast molecular shape recognition with pharmacophoric constraints. It integrates atom type to the traditional Ultrafast Shape Recognition (USR) descriptor to improve the performance of shape-based virtual screening, being able to discriminate between compounds with similar shape but distinct pharmacophoric features.
 
-This model was incorporated on 2023-11-28.Last packaged on 2025-11-14.
+This model was incorporated on 2023-11-28.Last packaged on 2026-03-19.
 
 ## Information
 ### Identifiers
@@ -44,18 +44,18 @@ _10 of 60 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos1ut3](https://hub.docker.com/r/ersiliaos/eos1ut3)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `7977`
-- **Image Size (Mb):** `7678.54`
+- **Image Size (Mb):** `7917.95`
 
 **Computational Performance (seconds):**
-- 10 inputs: `30.63`
-- 100 inputs: `35.34`
-- 10000 inputs: `-1`
+- 10 inputs: `35.75`
+- 100 inputs: `48.04`
+- 10000 inputs: `1197.82`
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/usrcat](https://molfeat.datamol.io/featurizers/usrcat)
