@@ -15,11 +15,21 @@ root = os.path.dirname(os.path.abspath(__file__))
 
 # my model
 def my_model(smiles):
-    mols = [dm.to_mol(s) for s in smiles]
-    molecules_with_3D = [dm.conformers.generate(m, n_confs=1, minimize_energy=True) for m in mols]
+    import numpy as np
+    n_dims = 60
     transformer = FPVecTransformer(kind='usrcat', dtype=float)
-    features = transformer(molecules_with_3D) 
-    return features
+    results = []
+    for s in smiles:
+        try:
+            mol = dm.to_mol(s)
+            if mol is None:
+                raise ValueError("Invalid SMILES")
+            mol_3d = dm.conformers.generate(mol, n_confs=1, minimize_energy=True)
+            feat = transformer([mol_3d])[0]
+        except Exception:
+            feat = [float('nan')] * n_dims
+        results.append(feat)
+    return results
 
 # read SMILES from .csv file, assuming one column with header
 with open(input_file, "r") as f:
