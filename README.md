@@ -59,7 +59,7 @@ _10 of 60 columns are shown_
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/usrcat](https://molfeat.datamol.io/featurizers/usrcat)
-- **Publication**: [https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-27](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-27)
+- **Publication**: [https://doi.org/10.1186/1758-2946-4-27](https://doi.org/10.1186/1758-2946-4-27)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2012`
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
