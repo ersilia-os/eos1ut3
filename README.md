@@ -2,7 +2,8 @@
 
 Describes molecular shape together with pharmacophoric character in 60 numbers, extending Ultrafast Shape Recognition so that atoms are no longer treated as interchangeable. Schreyer and Blundell noted that plain USR can screen millions of compounds but cannot tell apart molecules of similar shape bearing different functionality, so they added twelve further moments each for hydrophobic, aromatic, hydrogen bond donor and acceptor atoms, which gave the best enrichment of all methods tested on DUD-E. Values follow the single energy-minimised conformer generated here from the input structure.
 
-This model was incorporated on 2023-11-28.Last packaged on 2026-08-31.
+This model was incorporated on 2023-11-28.
+Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 60 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos1ut3](https://hub.docker.com/r/ersiliaos/eos1ut3)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1ut3.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos1ut3_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos1ut3_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
